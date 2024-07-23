@@ -1,0 +1,119 @@
+**面试**
+
+1.自我介绍
+
+2014年本科毕业，2017年入职索为至今，主要从事plm产品的开发工作，个人主要负责其中的数据模块，经历过系统的升级改造、也负责过非标产品的开发组长职位，因公司欠薪被迫离职。我个人在一直对iot很感兴趣，对贵公司软硬结合的项目很感兴趣，很期待能加入并尽我所长为公司创造一定的价值
+
+2.工作中遇到的难点
+
+沟通需求与技术实现的差异：如是否分页、砍需求、
+
+组内任务分配：开发速度与质量之间如何平衡，单元测试与需求实现
+
+线上问题处理：报错原因排查与复盘、
+
+3.大型分布式系统设计(并发tps2k以上、数据量级千万)
+
+4.数据库索引优化
+
+4.1创建索引 字段值稀疏度、联合索引、
+
+4.2sql查询(如何避免不走索引、)
+
+4.3维护(失效与重建)
+
+5.数据库数据结构
+
+b+树
+
+跳表 https://blog.csdn.net/sihai12345/article/details/138419109
+
+LSM树 https://segmentfault.com/a/1190000039269078
+
+6.Java设计模式
+
+单例
+
+构造器builder
+
+工厂、享元模式、池化
+
+静态工厂：（组合优于继承）
+
+ -优点
+
+ .名字容易理解
+
+ .可以共享对象
+
+ .可以实现多态(向上转型、对调用方来说是屏蔽的)
+
+ .解耦，编译时可以没有这个类(jdbc getConnection)
+
+-缺点：
+
+ .不能被子类继承
+
+ .很难找(如工具类，必须得学习)
+
+7.alibaba spring cloud组件
+
+Zookeeper nacos 
+
+Gateway
+
+Openfeign Dubbo(RPC)
+
+Steta 分布式事务
+
+sentinel 服务熔断
+
+rocketmq
+
+8.缓存
+
+Redis
+
+Memcached
+
+Ehcache
+
+Caffien
+
+9.时序数据库
+
+10.Linux命令
+
+内存 top free
+
+cpu free
+
+硬盘 df 
+
+目录 du -sh
+
+文件大小 ls -lh
+
+网络 netstat -natp
+
+11.jvm命令
+
+Jps -v 查看jvm pid及jvm参数
+
+jcmd 查看java命令行参数
+
+Jstack
+
+Jheap
+
+jconsole jvm监控，可以查看内存、cpu、线程(检测死锁)
+
+jvisualvm jvm监控及性能分析
+
+https://blog.csdn.net/zhanglong_4444/article/details/116701143
+
+[[JVM]了断局: 堆外内存无法 [ -XX:MaxDirectMemorySize ] 限制-CSDN博客](https://blog.csdn.net/zhanglong_4444/article/details/116701143)
+
+https://blog.csdn.net/zy_jun/article/details/131305600
+
+[**【Elasticsearch】 实际生产中的监控及调优_es内存占用高的问题-CSDN博客**](https://blog.csdn.net/zy_jun/article/details/131305600)

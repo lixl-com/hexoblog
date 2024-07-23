@@ -1,0 +1,18 @@
+后端：activemq easy-poi
+
+mqtt 物联网传输协议
+emqx mqtt-broker服务器
+
+MQTT协议
+1.简介
+网络不稳定
+服务质量QOS
+2.发布、订阅
+服务端(broker)、客户端(publish/subscribe)
+通配符 + #
+发布的时候不可以使用通配符，订阅的的才可以
+
+协议有哪些方法？15种
+
+
+
